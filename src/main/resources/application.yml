@@ -1,0 +1,19 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+  datasource:
+    url: jdbc:mysql://localhost:3306/taller2dw
+    username: root
+    password: toor
+
+server:
+  port: 8080
+  protocol: http
+  servlet:
+    context-path: /
+
+logging:
+  level:
+    root: error
